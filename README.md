@@ -9,6 +9,11 @@ Similar to the hit game TWANG but using two buttons and rewritten to work within
 
 The game is simple use the buttons to move the player (Green Pixel) to the end of the level (Blue Pixel) while avoiding lava (Orange Pixels) and enemies (Red Pixels). Pressing both buttons at the same time will attack and kill any enemy within range.
 
+## Future plans
+* Consolidate Buttons into one I/O pin and add speaker for sound effects.
+* Design a simple coin cell powered dev kit to teach kids soldering and programming.
+* Eye catching screen saver when no user interactions have happened.
+
 ## Programming
 * Requires USBasp2.0 with latest firmware.
 * [How to program the ATtiny10](http://www.technoblogy.com/show?1YQY) by David Johnson-Davies
@@ -27,11 +32,6 @@ The game is simple use the buttons to move the player (Green Pixel) to the end o
 
 #### Schematic
 <img src="/tinyTWANG-schematic.png" alt="tinyTWANG-schematic" width="50%" />
-
-## Future plans
-* Consolidate Buttons into one I/O pin and add speaker for sound effects.
-* Design a simple coin cell powered dev kit to teach kids soldering and programming.
-* Eye catching screen saver when no user interactions have happened.
 
 ## Links & Credits
 * [TWANG Game](https://github.com/Critters/TWANG) - Critters
