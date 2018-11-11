@@ -3,7 +3,7 @@
 Written by Shea Ivey
 
 ## About
-[GIF of Game Play]
+<a href="https://www.youtube.com/watch?v=nsBtxUbfMcQ"><img src="https://img.youtube.com/vi/nsBtxUbfMcQ/0.jpg" alt="tinyTWANG Demo" width="50%" /></a>
 
 Similar to the hit game TWANG but using two buttons and rewritten to work within the constraints of the ATtiny10 microcontroller (1024 bytes of program space and 32 bytes of dynamic memory). The game is currently compiling around 838 bytes. 
 
