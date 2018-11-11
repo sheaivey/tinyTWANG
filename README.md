@@ -14,6 +14,7 @@ The game is simple use the buttons to move the player (Green Pixel) to the end o
 * [How to program the ATtiny10](http://www.technoblogy.com/show?1YQY) by David Johnson-Davies
 
 ## Hardware
+#### BOM
 * 1x ATtiny10
 * 2x 10k Ohm Pull Down Resistors
 * 2x Momentary Push Buttons
@@ -25,7 +26,7 @@ The game is simple use the buttons to move the player (Green Pixel) to the end o
 * Without LED Strip 1mah/0mW (ATtiny10)
 
 #### Schematic
-* [Add Schematic]
+<img src="/tinyTWANG-schematic.png" alt="tinyTWANG-schematic" width="50%" />
 
 ## Future plans
 * Consolidate Buttons into one I/O pin and add speaker for sound effects.
