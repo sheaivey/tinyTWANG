@@ -19,9 +19,12 @@ The game is simple use the buttons to move the player (Green Pixel) to the end o
 * 2x Momentary Push Buttons
 * 1x WS2812B LED Strip (Up to 200 pixels in length)
 
-Tested operating voltage range (3.0v to 5.5v). 
-Current depends on LED Strip size (Calculate max current = 20 * 3 * PIXEL_COUNT). Without LED Strip 1mah/0mW (ATtiny10)
+#### Power Consumption
+* Tested operating voltage range (3.0v to 5.5v). 
+* Current depends on LED Strip size (Calculate Max Current = 20 * 3 * PIXEL_COUNT). 
+* Without LED Strip 1mah/0mW (ATtiny10)
 
+#### Schematic
 * [Add Schematic]
 
 ## Future plans
