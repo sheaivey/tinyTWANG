@@ -19,14 +19,19 @@ The game is simple use the buttons to move the player (Green Pixel) to the end o
 * 2x Momentary Push Buttons
 * 1x WS2812B LED Strip (Up to 200 pixels in length)
 
+Tested operating voltage range (3.0v to 5.5v). 
+Current depends on LED Strip size (Calculate max current = 20 * 3 * PIXEL_COUNT). Without LED Strip 1mah/0mW (ATtiny10)
+
 * [Add Schematic]
 
 ## Future plans
 * Consolidate Buttons into one I/O pin and add speaker for sound effects.
 * Design a simple coin cell powered dev kit to teach kids soldering and programming.
+* Eye catching screen saver when no user interactions have happened.
 
 ## Links & Credits
-* [WS2812B LED](https://gist.github.com/MichMich/32ca143709ef9391f1f16c88a824188e) - MichMich
+* [TWANG Game](https://github.com/Critters/TWANG) - Critters
+* [WS2812B LEDs on the ATtiny10](https://gist.github.com/MichMich/32ca143709ef9391f1f16c88a824188e) - MichMich
 * [Overclock the ATtiny10 (from 4MHz(0x00) to 15 MHz(0xFF))](https://hackaday.io/project/10116-minimalist-a-go-go/log/37495-overclocking-attiny10) - kodera2t
 * [Inline Assembly Tutorials](https://ucexperiment.wordpress.com/2016/03/07/arduino-inline-assembly-tutorial-2/) - Jim Eli
 
