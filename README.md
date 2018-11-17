@@ -13,6 +13,7 @@ The game is simple use the buttons to move the player (Green Pixel) to the end o
 * Consolidate Buttons into one I/O pin and add speaker for sound effects.
 * Design a simple coin cell powered dev kit to teach kids soldering and programming.
 * Eye catching screen saver when no user interactions have happened.
+* Make game play faster with each win.
 
 ## Programming
 * Requires USBasp2.0 with latest firmware.
